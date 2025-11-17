@@ -15,7 +15,7 @@ function subtrair(a, b) {
  return a - b;
 }
 
-//Qestão 4
+//Questão 4
 function dividir(a, b) {
   if (b === 0) {
     throw new Error("Erro: divisão por zero");
@@ -39,7 +39,7 @@ function calcularAreaRetangulo(largura, altura) {
   return multiplicar(largura, altura);
 }
 
-//Questao 8
+//Questão 8
 function verificarParOuImpar(numero) {
   if (numero % 2 === 0) {
     return "par";
@@ -83,3 +83,4 @@ module.exports = {
   calcularRaizQuadrada,
   calcularHipotenusa,
 };
+
